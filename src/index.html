@@ -9,9 +9,27 @@
 <body>
 
     <div class="menu">
-        <div class="metronome">  </div>
+        <div class="metronome">
+            <div class="bpm-display">
+                <span class="tempo">140</span>
+                <span class="bpm">BPM</span>
+            </div>
+
+            <div class="start-stop">START</div>
+
+            <div class="tempo-settings">
+                <div class="adjust-tempo-btn decrease-tempo">-</div>
+                <input type="range" min="20" max="280" step="1" class="slider">
+                <div class="adjust-tempo-btn increase-tempo">+</div>
+            </div>
+            <div class="measures">
+                <div class="subtract-beats stepper">-</div>
+                <div class="measure-count">4</div>
+                <div class="add-beats stepper">+</div>
+            </div>
     </div>
 
+    
     <div class="drumkit">
         <div class="pad" data-sound="clap"><img src="../icons/clap.png" alt="clap"></div>
         <div class="pad" data-sound="crash"><img src="../icons/crash.png" alt="crash"></div>
@@ -20,7 +38,8 @@
         <div class="pad" data-sound="snare"><img src="../icons/snare.png" alt="snare"></div>
         <div class="pad" data-sound="closed-hihat"><img src="../icons/closed-hihat.png" alt="ch"></div>
     </div>
-
+    
+    <script src="metronome.js" ></script>
     <script src="howler.min.js"></script>
     <script src="drumPad.js"></script>
 </body>
