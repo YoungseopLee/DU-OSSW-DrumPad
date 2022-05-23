@@ -19,7 +19,6 @@ body {
     background: radial-gradient(#e18174, #d15746);
    
     border-radius: 10px;
-
 }
 
 .drumkit {
@@ -28,7 +27,7 @@ body {
     justify-content: center;
 
     height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
+    height: calc(var(--vh, 1vh) * 87);
 }
 
 .pad {
