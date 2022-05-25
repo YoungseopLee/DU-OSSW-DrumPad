@@ -6,19 +6,25 @@ Welcome to the DrumPad!!
 
 # 주요기능
 ## 드럼패드 
+
 web audio api를 통해 드럼패드 제작
 DrumPad.js
+
 ![siyoung](https://user-images.githubusercontent.com/102271673/170287712-efbc6d95-fba4-4e97-9b0a-74b0548feece.PNG)
+
 holwer.js에 있는 howl 함수를 통해 src로 소스파일 정립하고 sprite함수로 한파일로 이어져있는 오디오컨텍스트를 시간에따라 쪼갠다.
 
 ![드럼패드 3](https://user-images.githubusercontent.com/102271673/170289838-1c86f361-2544-45f3-9788-41710b019e34.PNG)
+
 입력받은 오디오파일로 클릭과 터치이벤트를통해 오디오컨텍스트 출력
 
 ## 메트로놈
 this.start로 타이머시작
 this.stop으로 타이머정지
 this.round로 시작된 타이머 루프를 기본적으로 하며
+
 ![메트로놈](https://user-images.githubusercontent.com/102271673/170296886-6fb05ee7-7d38-41a0-9b07-cc9167162ee0.PNG)
+
 위 변수들로 메트로놈의 비트수와 박자수를 조절한다.
 ## 로컬에서 오디오 불러오기
 
